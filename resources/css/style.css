@@ -1,3 +1,13 @@
-p {
-    color: red;
+body {
+    margin: 0;
+}
+
+.header--container {
+    display: inline-grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 20%;
+}
+
+h1 {
+    
 }
