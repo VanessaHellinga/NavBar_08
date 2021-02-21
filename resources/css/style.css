@@ -9,8 +9,7 @@ header {
 .header--container {
     display: inline-grid;
     grid-template-columns: repeat(3, 33%);
-    position: relative;
-   
+    position: relative; 
 }
 
 
