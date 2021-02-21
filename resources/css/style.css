@@ -2,12 +2,19 @@ body {
     margin: 0;
 }
 
-.header--container {
-    display: inline-grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 20%;
+header {
+    display: grid;
 }
 
-h1 {
-    
+.header--container {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: 50%;
+    position: absolute;
+   
+}
+
+.header--title {
+    position: relative;
+    justify-self: center;
 }
