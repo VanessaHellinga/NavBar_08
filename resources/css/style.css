@@ -16,7 +16,7 @@ header {
 
 .header--title {
     position: relative;
-    
+    grid-column-start: 2; 
 }
 
 h1 {
